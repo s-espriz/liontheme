@@ -1,2 +1,2 @@
 # liontheme-
- Classic Conky Theme  For Professional - Easy Install 
+ Classic Conky Theme  For Professionals - Easy Install 
