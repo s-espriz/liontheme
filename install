@@ -1,0 +1,20 @@
+#!/bin/bash 
+#lion thme instalation
+killall conky #Stop other conky thme if available  
+rm -rf $HOME/.aureola #remove other aureola themes
+rm -f $HOME/.config/autostart/liontheme.desktop #remove autostart file if exists
+sudo  rm  -f /usr/bin/lionthme 
+mkdir -p $HOME/.aureola 
+cp -r aureola/* $HOME/.aureola #coppy aureola theme files
+cp background.jpg $HOME/.aureola/ 
+home="$HOME"
+gsettings set org.gnome.desktop.background picture-uri $HOME/.aureola/background.jpg #setting background 
+
+mkdir -p $HOME/.config/autostart/
+cp liontheme.desktop $HOME/.config/autostart/ #make sure it start automaticly
+sudo chmod +x liontheme 
+sudo cp liontheme /usr/bin/ 
+liontheme #start liontheme
+echo "lion theme installed succesfully"
+
+                

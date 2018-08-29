@@ -1,0 +1,5 @@
+#!/bin/bash 
+cd /home/sepehr/.aureola/asura
+./install-conky.sh
+cd /home/sepehr/.aureola/gambodekdue/ 
+./install-conky.sh
