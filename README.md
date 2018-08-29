@@ -22,8 +22,8 @@ Befor Install theme Make Sure You Have These Packages Installed On Your System
 
 type following commands in your terminal :
 
-      $ git clone https://github.com/s-espriz/liontheme-.git
-      $ cd liontheme-
+      $ git clone https://github.com/s-espriz/liontheme.git
+      $ cd liontheme
       $chmod +x install
       $./install
 
