@@ -1,28 +1,30 @@
-### liontheme
+# liontheme
                                                         In The Name Of God 
- ### what is lion theme ??
- Its A very beautiful desktop theme Based On conky and using aureola widgets 
+ ## what is lion theme ??
+its a very beautiful desktop theme based on conky and using [aureola](https://github.com/erikdubois/Aureola) widgets 
  
  Classic Conky Theme  For Professionals - Easy Install 
  ![ScreenShot](http://s9.picofile.com/file/8335724392/Screenshot_from_2018_08_29_05_13_58.png)
  
 
-### Dependencies
+## Dependencies
 
 What things you need to install the software and how to install them 
 Befor Install theme Make Sure You Have These Packages Installed On Your System 
-                 - conky-lua
-                 - dmidecode
-                 - lm-sensors
+
+
+                 * conky-lua
+                 * dmidecode
+                 * lm-sensors
  
-### Installation
+## Installation
 
 type following commands in your terminal :
 
-      `$ git clone https://github.com/s-espriz/liontheme-.git`
-      `$ cd liontheme-`
-      `$chmod +x install`
-      `$./install` 
+      $ git clone https://github.com/s-espriz/liontheme-.git
+      $ cd liontheme-
+      $chmod +x install
+      $./install
 
 
 #####if you use GNOME as your Desktop environment The Wallpaper will set automatically 
