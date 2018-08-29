@@ -21,7 +21,7 @@ mkdir -p $HOME/.config/autostart/
 cp liontheme.desktop $HOME/.config/autostart/ #make sure it start automaticly
 sudo chmod +x liontheme 
 sudo cp -rf  liontheme /usr/bin/ 
-sudo liontheme  liontheme #start liontheme
+liontheme #start liontheme
 echo "lion theme installed succesfully"
 
                 
